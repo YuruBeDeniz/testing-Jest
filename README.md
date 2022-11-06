@@ -1,11 +1,12 @@
-To set up the app
-$ mkdir unit-testing-example
-$ cd unit-testing-example
-$ touch .gitignore
-$ npm init -y && npm install -D jest
-# add node_modules to .gitignore file
-$ mkdir src && spec
-$
+# testing-Jest
+
+To set up the app:
+ mkdir unit-testing-example
+ cd unit-testing-example
+ touch .gitignore
+ npm init -y && npm install -D jest
+ add node_modules to .gitignore file
+ mkdir src && spec
 
 ### see Jest expect methods (matchers)
 https://jestjs.io/docs/expect
@@ -36,4 +37,4 @@ This has a couple of huge advantages:
 You always test your code in the same way. Goodbye self-doubt like: “Did I call it the same way? Is it different because the situation is different or did the behavior of my code change unexpectedly?”
 With every new bit of code you are testing all of your previous code again. Automatically! What does this mean? The situations like “Hmm that used to work before, where did it break?” will be passed since with TDD you KNOW where and when it broke. You don’t have to go through the whole codebase again to find the needle.
 Usually manual testing takes a lot of steps and therefore costs you the time.
-# testing-Jest
+
